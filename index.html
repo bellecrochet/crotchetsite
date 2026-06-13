@@ -1,65 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Belle Crochet</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 20px;
-      background: #fafafa;
-    }
-    h1 {
-      text-align: center;
-    }
-    .product {
-      border: 1px solid #ddd;
-      padding: 10px;
-      margin: 10px;
-      background: white;
-      border-radius: 8px;
-      width: 250px;
-      display: inline-block;
-      vertical-align: top;
-    }
-    img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .category {
-      font-size: 12px;
-      color: gray;
-    }
-  </style>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<h1>Belle Crochet</h1>
+<header class="header">
+  <h1>🧶 Belle Crochet</h1>
+  <p>Handmade crochet creations with love</p>
+</header>
 
-<div id="products"></div>
+<nav class="nav">
+  <button onclick="filterCategory('All')">All</button>
+  <button onclick="filterCategory('Tiny')">Tiny</button>
+  <button onclick="filterCategory('Flowers')">Flowers</button>
+  <button onclick="filterCategory('Animals')">Animals</button>
+  <button onclick="filterCategory('Humans')">Humans</button>
+  <button onclick="filterCategory('Nature')">Nature</button>
+  <button onclick="filterCategory('Bags')">Bags</button>
+  <button onclick="filterCategory('Accessories')">Accessories</button>
+  <button onclick="filterCategory('Sale')">Sale</button>
+</nav>
 
-<script>
-fetch('products.json')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById('products');
+<section class="intro">
+  <p>Welcome to my handmade crochet world. Every item is crafted with care and attention to detail.</p>
+</section>
 
-    data.products.forEach(p => {
-      const div = document.createElement('div');
-      div.className = 'product';
+<main>
+  <div id="productGrid" class="grid"></div>
+</main>
 
-      div.innerHTML = `
-        <img src="images/${p.image}">
-        <h3>${p.name}</h3>
-        <p>${p.price}</p>
-        <p class="category">${p.categories.join(', ')}</p>
-      `;
+<footer class="footer">
+  <p>Contact: <a href="mailto:belleyan19@gmail.com">belleyan19@gmail.com</a></p>
+  <p>© 2026 Belle Crochet</p>
+</footer>
 
-      container.appendChild(div);
-    });
-  });
-</script>
-
+<script src="js/app.js"></script>
 </body>
 </html>
