@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "A001",
+      "name": "Crochet Bee",
+      "price": "£8",
+      "categories": ["Tiny", "Animals"],
+      "image": "bee.jpg"
+    },
+    {
+      "id": "A002",
+      "name": "Sunflower Keyring",
+      "price": "£5",
+      "categories": ["Tiny", "Flowers", "Accessories"],
+      "image": "sunflower.jpg"
+    }
+  ]
+}
