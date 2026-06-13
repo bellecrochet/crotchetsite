@@ -1,3 +1,164 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "P001",
+      "name": "Bee Keychain",
+      "categories": ["Tiny", "Accessories", "Animals"],
+      "price": "",
+      "sale": false,
+      "image": "bee_keychain.PNG"
+    },
+    {
+      "id": "P002",
+      "name": "Flower World Decoration",
+      "categories": ["Flowers", "Nature", "Home Decor"],
+      "price": "",
+      "sale": false,
+      "image": "flower_world_decoration.jpg"
+    },
+    {
+      "id": "P003",
+      "name": "Occasion Bouquet Gift",
+      "categories": ["Flowers", "Bags", "Occasion"],
+      "price": "",
+      "sale": false,
+      "image": "bouquet_gift_occassion.PNG"
+    },
+    {
+      "id": "P004",
+      "name": "Little Character Nicky",
+      "categories": ["Humans"],
+      "price": "",
+      "sale": false,
+      "image": "little_character_Nicky.png"
+    },
+    {
+      "id": "P005",
+      "name": "Graduation Bouquet Doll",
+      "categories": ["Flowers", "Humans", "Occasion"],
+      "price": "",
+      "sale": false,
+      "image": "bouquet_occassion_graduation_doll.png"
+    },
+    {
+      "id": "P006",
+      "name": "Little Star Keychain",
+      "categories": ["Tiny", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "little_star_keychain.PNG"
+    },
+    {
+      "id": "P007",
+      "name": "Flower Bouquet (Occasion)",
+      "categories": ["Flowers", "Occasion"],
+      "price": "",
+      "sale": false,
+      "image": "Bouquet01_occassion.png"
+    },
+    {
+      "id": "P008",
+      "name": "Mouse Keychain",
+      "categories": ["Animals", "Tiny", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "mouse_keychain.png"
+    },
+    {
+      "id": "P009",
+      "name": "Flower Gift Bundle",
+      "categories": ["Flowers", "Occasion", "Gifts"],
+      "price": "",
+      "sale": false,
+      "image": "bunch_of_flower_occassion_gift.PNG"
+    },
+    {
+      "id": "P010",
+      "name": "Octopus Decoration",
+      "categories": ["Animals", "Sea", "Home Decor"],
+      "price": "",
+      "sale": false,
+      "image": "octopus_decoration.PNG"
+    },
+    {
+      "id": "P011",
+      "name": "Duck Keychain",
+      "categories": ["Animals", "Tiny", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "duck_keychain.JPG"
+    },
+    {
+      "id": "P012",
+      "name": "Smiley Face Keychain",
+      "categories": ["Tiny", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "smiley_face_keychain.PNG"
+    },
+    {
+      "id": "P013",
+      "name": "Flower Bookmark",
+      "categories": ["Flowers", "Accessories", "Tiny"],
+      "price": "",
+      "sale": false,
+      "image": "flower_bookmark.PNG"
+    },
+    {
+      "id": "P014",
+      "name": "Flower Hair Bobble",
+      "categories": ["Flowers", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "flower_hair_bobble.PNG"
+    },
+    {
+      "id": "P015",
+      "name": "Flower Pot Coaster",
+      "categories": ["Flowers", "Nature", "Home Decor"],
+      "price": "",
+      "sale": false,
+      "image": "flower_pot_coaster.PNG"
+    },
+    {
+      "id": "P016",
+      "name": "Flower Pot Decoration",
+      "categories": ["Flowers", "Nature", "Home Decor"],
+      "price": "",
+      "sale": false,
+      "image": "flower_pot_decoration.PNG"
+    },
+    {
+      "id": "P017",
+      "name": "Strawberry Keychain",
+      "categories": ["Tiny", "Accessories", "Nature"],
+      "price": "",
+      "sale": false,
+      "image": "strawberry_keychain.PNG"
+    },
+    {
+      "id": "P018",
+      "name": "Sunflower Keychain",
+      "categories": ["Flowers", "Tiny", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "sunflower_keychain.PNG"
+    },
+    {
+      "id": "P019",
+      "name": "Tiny Cake Gift Occasion",
+      "categories": ["Tiny", "Food", "Gifts", "Occasion"],
+      "price": "",
+      "sale": false,
+      "image": "tiny_cake_dift_occassion.PNG"
+    },
+    {
+      "id": "P020",
+      "name": "Tiny Cake Keychain",
+      "categories": ["Tiny", "Food", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "tiny_cake_keychain.PNG"
+    }
+  ]
 }
