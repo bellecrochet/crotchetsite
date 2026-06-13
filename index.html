@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Belle Crochet</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 20px;
+      background: #fafafa;
+    }
+    h1 {
+      text-align: center;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px;
+      background: white;
+      border-radius: 8px;
+      width: 250px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .category {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Belle Crochet</h1>
+
+<div id="products"></div>
+
+<script>
+fetch('products.json')
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById('products');
+
+    data.products.forEach(p => {
+      const div = document.createElement('div');
+      div.className = 'product';
+
+      div.innerHTML = `
+        <img src="images/${p.image}">
+        <h3>${p.name}</h3>
+        <p>${p.price}</p>
+        <p class="category">${p.categories.join(', ')}</p>
+      `;
+
+      container.appendChild(div);
+    });
+  });
+</script>
+
+</body>
+</html>
