@@ -26,7 +26,7 @@ function renderProducts() {
     card.className = "card";
 
     card.innerHTML = `
-      <img src="images/${product.image}" alt="${product.name}">
+      <img src="images/${product.image}" alt="${product.name}" onclick="openLightbox('images/${product.image}')">
       <div class="card-content">
         <h3>${product.name}</h3>
         ${product.price ? `<p>£${product.price}</p>` : ``}
@@ -41,4 +41,16 @@ function renderProducts() {
 function filterCategory(category) {
   currentFilter = category;
   renderProducts();
+}
+
+function openLightbox(src) {
+  const lightbox = document.getElementById("lightbox");
+  const img = document.getElementById("lightboxImg");
+
+  img.src = src;
+  lightbox.style.display = "flex";
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
 }
