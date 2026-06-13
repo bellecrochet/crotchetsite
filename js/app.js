@@ -29,7 +29,7 @@ function renderProducts() {
       <img src="images/${product.image}" alt="${product.name}">
       <div class="card-content">
         <h3>${product.name}</h3>
-        <p>£${product.price}</p>
+        ${product.price ? `<p>£${product.price}</p>` : ``}
         <div class="tags">${product.categories.join(", ")}</div>
       </div>
     `;
