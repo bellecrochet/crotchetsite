@@ -30,7 +30,7 @@
       "categories": ["Humans"],
       "price": "",
       "sale": false,
-      "image": "little_character_nicky.jpeg"
+      "image": "little_character_nicky.png"
     },
     {
       "id": "P005",
@@ -54,7 +54,7 @@
       "categories": ["Flowers", "Occasion"],
       "price": "",
       "sale": false,
-      "image": "bouquet01_occassion.jpg"
+      "image": "bouquet01_occassion.png"
     },
     {
       "id": "P008",
@@ -62,7 +62,7 @@
       "categories": ["Animals", "Tiny", "Accessories"],
       "price": "",
       "sale": false,
-      "image": "mouse_keychain.jpg"
+      "image": "mouse_keychain.png"
     },
     {
       "id": "P009",
