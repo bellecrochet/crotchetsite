@@ -159,6 +159,14 @@
       "price": "",
       "sale": false,
       "image": "tiny_cake_keychain.PNG"
+    },
+    {
+      "id": "P021",
+      "name": "Wedding Dolls",
+      "categories": ["Human", "Occasion"],
+      "price": "",
+      "sale": false,
+      "image": "tiny_cake_keychain.PNG"
     }
   ]
 }
