@@ -142,7 +142,7 @@
       "categories": ["Flowers", "Tiny", "Accessories"],
       "price": "",
       "sale": false,
-      "image": "sunflower_keychain.PNG"
+      "image": "sunflower_keychain_1.png"
     },
     {
       "id": "P019",
@@ -166,7 +166,7 @@
       "categories": ["Human", "Occasion"],
       "price": "",
       "sale": false,
-      "image": "tiny_cake_keychain.PNG"
+      "image": "wedding_doll_pair.png"
     }
   ]
 }
