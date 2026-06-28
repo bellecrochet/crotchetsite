@@ -19,7 +19,7 @@
     {
       "id": "P003",
       "name": "Occasion Bouquet Gift",
-      "categories": ["Flowers", "Bags", "Occasion"],
+      "categories": ["Flowers", "Occasion"],
       "price": "",
       "sale": false,
       "image": "bouquet_gift_occassion.PNG"
@@ -27,7 +27,7 @@
     {
       "id": "P004",
       "name": "Little Character Nicky",
-      "categories": ["Humans"],
+      "categories": ["Animals"],
       "price": "",
       "sale": false,
       "image": "little_character_nicky.png"
@@ -35,7 +35,7 @@
     {
       "id": "P005",
       "name": "Graduation Bouquet Doll",
-      "categories": ["Flowers", "Humans", "Occasion"],
+      "categories": ["Flowers", "Occasion"],
       "price": "",
       "sale": false,
       "image": "bouquet_occassion_graduation_doll.png"
@@ -163,10 +163,18 @@
     {
       "id": "P021",
       "name": "Wedding Dolls",
-      "categories": ["Human", "Occasion"],
+      "categories": ["Humans", "Occasion"],
       "price": "",
       "sale": false,
       "image": "wedding_doll_pair.png"
-    }
+    },
+    {
+      "id": "P022",
+      "name": "Mobile Pouch",
+      "categories": ["Bags", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "lavender_mobile_pouch.png"
+    }    
   ]
 }
