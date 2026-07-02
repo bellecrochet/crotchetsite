@@ -175,6 +175,14 @@
       "price": "",
       "sale": false,
       "image": "lavender_mobile_pouch.png"
-    }    
+    },
+    {
+      "id": "P023",
+      "name": "Mobile Pouch",
+      "categories": ["Bags", "Accessories"],
+      "price": "",
+      "sale": false,
+      "image": "purple_mobile_pouch.png"
+    }       
   ]
 }
